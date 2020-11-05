@@ -1,9 +1,6 @@
 #!/usr/local/bin python3
 
+f = input("Input:\n======\n")
 
-f = open('input.txt')
-f1 = open('output.txt','w')
-for x in f.readlines():
-    f1.write(x.lower())
-f.close()
-f1.close()
+print("\nOutput:\n=======")
+print(f.lower())
