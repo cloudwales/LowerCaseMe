@@ -6,8 +6,8 @@ I found that i was getting a lot of text from a customer for website content tha
 
 ### Instructions
 
-- Add some uppercase text to the input file and `save.txt`
-- Run the scrpt `python3 run.py`
-- View the `output.txt` for the lowercased text
+- Run the script `python3 run.py`
+- Add your input text
+- Copy and paste the output
 
 Thats it.
