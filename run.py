@@ -2,12 +2,15 @@
 
 confirm = {'yes', 'y'}
 
+def lowercase(sentence):
+    print("\nOutput:\n======")
+    print(sentence.lower())
+    print("\n")
+
+
 while True:
-	f = input("\nInput:\n=====\n")
+	sentence = input("\nInput:\n=====\n")
+	lowercase(sentence)
 
-	print("\nOutput:\n======")
-	print(f.lower())
-	print("\n")
-
-	if input("Would you like to go again?").lower() not in confirm:
+	if input("Would you like to convert another sentance?").lower() not in confirm:
 		break
