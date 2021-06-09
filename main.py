@@ -1,11 +1,13 @@
 #!/usr/local/bin python3
 
-from Helper import *
+from Helpers import *
+
 
 while True:
-	sentence = input("\n\033[1;33;40mInput:\033[0;0m\n")
+    sentence_input = input("\n\033[1;33;40mInput:\033[0;0m\n")
+    converted_sentence = Helpers.convert_to_lowercase(sentence_input)
+    Helpers.format_output(converted_sentence)
+    Helpers.copy_to_clipboard(converted_sentence)
 
-	Helper.convert_to_lowercase(sentence)
-
-	if input("Would you like to convert another sentance? [y]yes or [n]no \n").lower() not in ('y', 'yes'):
-		break
+    if input("Would you like to convert another sentance? [y]yes or [n]no \n").lower() not in ('y', 'yes'):
+        break
