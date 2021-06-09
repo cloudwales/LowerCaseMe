@@ -4,7 +4,7 @@ A script I wrote as a bit of a personal project to replace uppercase text to low
 
 I found that I was getting a lot of text from a customer for website content that was in uppercase.
 
-###  TODO:
+###  Todo:
 
 - ~~Refactor~~
 - Put the uppercase at the start of sentence.
@@ -17,5 +17,5 @@ I found that I was getting a lot of text from a customer for website content tha
 - Add your input text
 - Copy and paste the output
 
-#### Extras
+### Extras
 If you spend a bit of time in the terminal, then add it to your aliases or edit as you need.
